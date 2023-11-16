@@ -4,7 +4,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println(countDeci("23+233445-"));
+        System.out.println(countDeci("23+23344"));
 
 
     }
@@ -16,12 +16,11 @@ public class Main {
             char currentChar = r.charAt(0);
             int deciCount = isDeci(currentChar) ? 1 : 0;
             return deciCount + countDeci(r.substring(1));
-
         }
 
     }
     public static boolean isDeci(char c) {
-        return c >= '0' && c <= '9';
+        return c >= '0' ;
     }
 }
 
