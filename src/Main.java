@@ -20,10 +20,8 @@ public class Main {
         }
 
     }
-
     public static boolean isDeci(char c) {
         return c >= '0' && c <= '9';
-
     }
 }
 
