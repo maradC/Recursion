@@ -3,13 +3,15 @@
 public class Main {
 
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-        }
+    }
+
     public static int countDeci(String r) {
         if (r.length() == 0) {
             return 0;
+        }
     }
 
 
-
+}
