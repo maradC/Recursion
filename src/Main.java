@@ -10,8 +10,21 @@ public class Main {
     public static int countDeci(String r) {
         if (r.length() == 0) {
             return 0;
+        } else {
+            char currentChar = r.charAt(0);
+            int deciCount = isDeci(currentChar) ? 1 : 0;
+
         }
+        return 0;
     }
 
+    public static boolean isDeci(char c){
 
+    }
 }
+
+
+
+
+
+
