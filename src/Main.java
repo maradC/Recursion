@@ -13,12 +13,14 @@ public class Main {
         } else {
             char currentChar = r.charAt(0);
             int deciCount = isDeci(currentChar) ? 1 : 0;
+            return deciCount + countDeci(r.substring(1));
 
         }
-        return 0;
+
     }
 
-    public static boolean isDeci(char c){
+    public static boolean isDeci(char c) {
+        return c >= '0' && c <= '9';
 
     }
 }
